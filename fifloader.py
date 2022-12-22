@@ -199,7 +199,7 @@ def generate_job_templates(products, profiles, testsuites):
         for (profile, prio) in suite['profiles'].items():
             jobtemplate = {'test_suite_name': name, 'prio': prio}
             # x86_64 compose
-            jobtemplate['group_name'] = 'fedora'
+            jobtemplate['group_name'] = 'Almalinux x86_64'
             jobtemplate['machine_name'] = profiles[profile]['machine']
             product = products[profiles[profile]['product']]
             jobtemplate['arch'] = product['arch']
@@ -208,17 +208,22 @@ def generate_job_templates(products, profiles, testsuites):
             jobtemplate['version'] = product['version']
             if jobtemplate['machine_name'] == 'ppc64le':
                 if 'updates' in product['flavor']:
-                    jobtemplate['group_name'] = "Fedora PowerPC Updates"
+                    jobtemplate['group_name'] = "Almalinux PowerPC Updates"
                 else:
-                    jobtemplate['group_name'] = "Fedora PowerPC"
+                    jobtemplate['group_name'] = "Almalinux PowerPC"
             elif jobtemplate['machine_name'] in ('aarch64', 'ARM'):
                 if 'updates' in product['flavor']:
-                    jobtemplate['group_name'] = "Fedora AArch64 Updates"
+                    jobtemplate['group_name'] = "Almalinux AArch64 Updates"
                 else:
-                    jobtemplate['group_name'] = "Fedora AArch64"
+                    jobtemplate['group_name'] = "Almalinux AArch64"
+            elif jobtemplate['machine_name'] in ('s390x'):
+                if 'updates' in product['flavor']:
+                    jobtemplate['group_name'] = "Almalinux s390x Updates"
+                else:
+                    jobtemplate['group_name'] = "Almalinux s390x"
             elif 'updates' in product['flavor']:
                 # x86_64 updates
-                jobtemplate['group_name'] = "Fedora Updates"
+                jobtemplate['group_name'] = "Almalinux x86_64 Updates"
             jobtemplates.append(jobtemplate)
     return jobtemplates
 
