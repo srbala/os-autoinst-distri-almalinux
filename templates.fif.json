@@ -385,19 +385,6 @@
             },
             "version": "*"
         },
-        "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*": {
-            "arch": "ppc64le",
-            "distri": "almalinux",
-            "flavor": "Calfblue-dvd_ostree-iso",
-            "settings": {
-                "CANNED": "1",
-                "DEPLOY_UPLOAD_TEST": "install_default_upload",
-                "DESKTOP": "gnome",
-                "PACKAGE_SET": "default",
-                "TEST_TARGET": "ISO"
-            },
-            "version": "*"
-        },
         "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*": {
             "arch": "x86_64",
             "distri": "almalinux",
@@ -658,10 +645,6 @@
             "machine": "s390x",
             "product": "Almalinux-minimal-iso-s390x-*"
         },
-        "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": {
-            "machine": "ppc64le",
-            "product": "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*"
-        },
         "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": {
             "machine": "64bit",
             "product": "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*"
@@ -747,7 +730,6 @@
                 "Almalinux-KDE-live-iso-x86_64-*-64bit": 40,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 40,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-minimal-iso-aarch64-*-aarch64": 20,
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 20,
@@ -775,7 +757,6 @@
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 20,
                 "Almalinux-minimal-iso-s390x-*-s390x": 20,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -807,7 +788,6 @@
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 20,
                 "Almalinux-minimal-iso-s390x-*-s390x": 20,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -894,7 +874,6 @@
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 40,
                 "Almalinux-minimal-iso-s390x-*-s390x": 40,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 40,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 40,
@@ -926,7 +905,6 @@
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 40,
                 "Almalinux-minimal-iso-s390x-*-s390x": 40,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 40,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 40,
@@ -958,7 +936,6 @@
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 40,
                 "Almalinux-minimal-iso-s390x-*-s390x": 40,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 40,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 40,
@@ -1019,7 +996,6 @@
         "desktop_background": {
             "profiles": {
                 "Almalinux-KDE-live-iso-x86_64-*-64bit": 22,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1067,7 +1043,6 @@
                 "Almalinux-XFCE-live-iso-x86_64-*-64bit": 22,
                 "Almalinux-MATE-live-iso-x86_64-*-64bit": 22,
                 "Almalinux-Mini-live-iso-x86_64-*-64bit": 22,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1142,7 +1117,6 @@
         "desktop_terminal": {
             "profiles": {
                 "Almalinux-KDE-live-iso-x86_64-*-64bit": 22,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1159,7 +1133,6 @@
         },
         "evince": {
             "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1176,7 +1149,6 @@
         },
         "calculator": {
             "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1191,25 +1163,8 @@
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
             }
         },
-        "clocks": {
-            "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
-                "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
-                "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
-                "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
-                "Almalinux-gnome-upgrade-aarch64-*-aarch64": 40,
-                "Almalinux-gnome-raw_xz-raw.xz-aarch64-*-aarch64": 22
-            },
-            "settings": {
-                "BOOTFROM": "c",
-                "HDD_1": "disk_%FLAVOR%_%MACHINE%.qcow2",
-                "POSTINSTALL_PATH": "tests/applications/clocks",
-                "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
-            }
-        },
         "archiver": {
             "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1223,25 +1178,8 @@
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
             }
         },
-        "contacts": {
-            "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
-                "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
-                "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
-                "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
-                "Almalinux-gnome-upgrade-aarch64-*-aarch64": 40,
-                "Almalinux-gnome-raw_xz-raw.xz-aarch64-*-aarch64": 22
-            },
-            "settings": {
-                "BOOTFROM": "c",
-                "HDD_1": "disk_%FLAVOR%_%MACHINE%.qcow2",
-                "POSTINSTALL_PATH": "tests/applications/contacts",
-                "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
-            }
-        },
         "eog": {
             "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1257,7 +1195,6 @@
         },
         "help_viewer": {
             "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1272,26 +1209,8 @@
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
             }
         },
-        "maps": {
-            "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
-                "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
-                "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
-                "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
-                "Almalinux-gnome-upgrade-x86_64-*-64bit": 40,
-                "Almalinux-gnome-upgrade-aarch64-*-aarch64": 40,
-                "Almalinux-gnome-raw_xz-raw.xz-aarch64-*-aarch64": 22
-            },
-            "settings": {
-                "BOOTFROM": "c",
-                "HDD_1": "disk_%FLAVOR%_%MACHINE%.qcow2",
-                "POSTINSTALL_PATH": "tests/applications/maps",
-                "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
-            }
-        },
         "nautilus": {
             "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1306,26 +1225,8 @@
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
             }
         },
-        "gnome_text_editor": {
-            "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
-                "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
-                "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
-                "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
-                "Almalinux-gnome-upgrade-x86_64-*-64bit": 40,
-                "Almalinux-gnome-upgrade-aarch64-*-aarch64": 40,
-                "Almalinux-gnome-raw_xz-raw.xz-aarch64-*-aarch64": 22
-            },
-            "settings": {
-                "BOOTFROM": "c",
-                "HDD_1": "disk_%FLAVOR%_%MACHINE%.qcow2",
-                "POSTINSTALL_PATH": "tests/applications/gnome-text-editor",
-                "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
-            }
-        },
         "sysmon": {
             "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
@@ -1336,22 +1237,6 @@
                 "BOOTFROM": "c",
                 "HDD_1": "disk_%FLAVOR%_%MACHINE%.qcow2",
                 "POSTINSTALL_PATH": "tests/applications/sysmon",
-                "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
-            }
-        },
-        "weather": {
-            "profiles": {
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
-                "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
-                "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 20,
-                "Almalinux-gnome-live-iso-x86_64-*-64bit": 20,
-                "Almalinux-gnome-upgrade-aarch64-*-aarch64": 40,
-                "Almalinux-gnome-raw_xz-raw.xz-aarch64-*-aarch64": 22
-            },
-            "settings": {
-                "BOOTFROM": "c",
-                "HDD_1": "disk_%FLAVOR%_%MACHINE%.qcow2",
-                "POSTINSTALL_PATH": "tests/applications/weather",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%"
             }
         },
@@ -1455,158 +1340,6 @@
                 "USER_LOGIN": "qwerty"
             }
         },
-        "install_blivet_btrfs": {
-            "profiles": {
-                "Almalinux-universal-aarch64-*-aarch64": 40,
-                "Almalinux-universal-ppc64le-*-ppc64le": 40,
-                "Almalinux-universal-x86_64-*-64bit": 40,
-                "Almalinux-universal-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_btrfs",
-                "POSTINSTALL": "disk_custom_btrfs_postinstall",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_lvmthin": {
-            "profiles": {
-                "Almalinux-universal-aarch64-*-aarch64": 40,
-                "Almalinux-universal-ppc64le-*-ppc64le": 40,
-                "Almalinux-universal-x86_64-*-64bit": 40,
-                "Almalinux-universal-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_lvmthin",
-                "POSTINSTALL": "disk_custom_lvmthin_postinstall",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_btrfs_preserve_home": {
-            "profiles": {
-                "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
-                "Almalinux-minimal-iso-x86_64-*-64bit": 40
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_btrfs_preserve_home",
-                "HDD_1": "disk_f%CURRREL%_desktop_4_%ARCH%.qcow2",
-                "POSTINSTALL": "btrfs_preserve_home_check_content",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_btrfs_preserve_home_uefi": {
-            "profiles": {
-                "Almalinux-minimal-iso-aarch64-*-aarch64": 40,
-                "Almalinux-minimal-iso-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_btrfs_preserve_home",
-                "HDD_1": "disk_f%CURRREL%_minimal-uefi_3_%ARCH%.qcow2",
-                "POSTINSTALL": "btrfs_preserve_home_check_content",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_lvm_ext4": {
-            "profiles": {
-                "Almalinux-minimal-iso-aarch64-*-aarch64": 40,
-                "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
-                "Almalinux-minimal-iso-x86_64-*-64bit": 40,
-                "Almalinux-minimal-iso-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_lvm_ext4",
-                "POSTINSTALL": "disk_custom_lvm_ext4_postinstall",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_standard_partition_ext4": {
-            "profiles": {
-                "Almalinux-minimal-iso-aarch64-*-aarch64": 40,
-                "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
-                "Almalinux-minimal-iso-x86_64-*-64bit": 40,
-                "Almalinux-minimal-iso-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_standard_partition_ext4",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_with_swap": {
-            "profiles": {
-                "Almalinux-universal-aarch64-*-aarch64": 50,
-                "Almalinux-universal-ppc64le-*-ppc64le": 50,
-                "Almalinux-universal-x86_64-*-64bit": 50,
-                "Almalinux-universal-x86_64-*-uefi": 51
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_with_swap",
-                "POSTINSTALL": "disk_custom_with_swap_postinstall",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_software_raid": {
-            "profiles": {
-                "Almalinux-universal-aarch64-*-aarch64": 40,
-                "Almalinux-universal-ppc64le-*-ppc64le": 40,
-                "Almalinux-universal-x86_64-*-64bit": 40,
-                "Almalinux-universal-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "NUMDISKS": "2",
-                "PARTITIONING": "custom_blivet_software_raid",
-                "POSTINSTALL": "disk_custom_software_raid_postinstall",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_blivet_xfs": {
-            "profiles": {
-                "Almalinux-universal-aarch64-*-aarch64": 40,
-                "Almalinux-universal-ppc64le-*-ppc64le": 40,
-                "Almalinux-universal-x86_64-*-64bit": 40,
-                "Almalinux-universal-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_blivet_xfs",
-                "POSTINSTALL": "disk_custom_xfs_postinstall",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_btrfs": {
-            "profiles": {
-                "Almalinux-universal-aarch64-*-aarch64": 40,
-                "Almalinux-universal-ppc64le-*-ppc64le": 40,
-                "Almalinux-universal-x86_64-*-64bit": 40,
-                "Almalinux-universal-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_btrfs",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
-        "install_btrfs_preserve_home": {
-            "profiles": {
-                "Almalinux-minimal-iso-aarch64-*-aarch64": 10,
-                "Almalinux-minimal-iso-ppc64le-*-ppc64le": 10,
-                "Almalinux-minimal-iso-x86_64-*-64bit": 10
-            },
-            "settings": {
-                "PARTITIONING": "custom_btrfs_preserve_home",
-                "ROOT_PASSWORD": "weakpassword",
-                "POSTINSTALL": "btrfs_preserve_home_check_content",
-                "HDD_1": "disk_f%CURRREL%_desktop_4_%ARCH%.qcow2"
-            }
-        },
-        "install_btrfs_preserve_home_uefi": {
-            "profiles": {
-                "Almalinux-minimal-iso-aarch64-*-aarch64": 40,
-                "Almalinux-minimal-iso-x86_64-*-uefi": 41
-            },
-            "settings": {
-                "PARTITIONING": "custom_btrfs_preserve_home",
-                "HDD_1": "disk_f%CURRREL%_minimal-uefi_3_%ARCH%.qcow2",
-                "POSTINSTALL": "btrfs_preserve_home_check_content",
-                "ROOT_PASSWORD": "weakpassword"
-            }
-        },
         "install_cyrillic_language": {
             "profiles": {
                 "Almalinux-universal-aarch64-*-aarch64": 40,
@@ -1669,7 +1402,10 @@
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 10,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 10,
                 "Almalinux-minimal-iso-s390x-*-s390x": 10,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
+                "Almalinux-dvd-iso-aarch64-*-aarch64": 10,
+                "Almalinux-dvd-iso-ppc64le-*-ppc64le": 10,
+                "Almalinux-dvd-iso-x86_64-*-64bit": 10,
+                "Almalinux-dvd-iso-s390x-*-s390x": 10,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 12,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 12
@@ -1829,6 +1565,12 @@
         },
         "install_lvm_ext4": {
             "profiles": {
+                "Almalinux-dvd-iso-aarch64-*-aarch64": 40,
+                "Almalinux-dvd-iso-ppc64le-*-ppc64le": 40,
+                "Almalinux-dvd-iso-x86_64-*-64bit": 40,
+                "Almalinux-dvd-iso-x86_64-*-uefi": 41,
+                "Almalinux-dvd-iso-s390x-*-s390x": 40,
+                "Almalinux-minimal-iso-s390x-*-s390x": 40,
                 "Almalinux-minimal-iso-aarch64-*-aarch64": 40,
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 40,
@@ -1843,8 +1585,14 @@
         },
         "install_standard_partition_ext4": {
             "profiles": {
+                "Almalinux-dvd-iso-aarch64-*-aarch64": 30,
+                "Almalinux-dvd-iso-ppc64le-*-ppc64le": 30,
+                "Almalinux-dvd-iso-s390x-*-s390x": 30,
+                "Almalinux-dvd-iso-x86_64-*-64bit": 30,
+                "Almalinux-dvd-iso-x86_64-*-uefi": 31,
                 "Almalinux-minimal-iso-aarch64-*-aarch64": 30,
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 30,
+                "Almalinux-minimal-iso-s390x-*-s390x": 30,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 30,
                 "Almalinux-minimal-iso-x86_64-*-uefi": 31
             },
@@ -2195,7 +1943,7 @@
                 "Almalinux-minimal-iso-x86_64-*-64bit": 40
             },
             "settings": {
-                "GRUB": "inst.vnc net.ifnames=0 biosdevname=0 ip=172.16.2.114::172.16.2.2:255.255.255.0:vnc001.test.openqa.fedoraproject.org:eth0:off",
+                "GRUB": "inst.vnc net.ifnames=0 biosdevname=0 ip=172.16.2.114::172.16.2.2:255.255.255.0:vnc001.test.openqa.almalinux.org:eth0:off",
                 "NICTYPE": "tap",
                 "VNC_SERVER": "1",
                 "WORKER_CLASS": "tap"
@@ -2225,7 +1973,7 @@
                 "Almalinux-minimal-iso-x86_64-*-64bit": 40
             },
             "settings": {
-                "GRUB": "inst.vnc inst.vncconnect=172.16.2.117:5500 net.ifnames=0 biosdevname=0 ip=172.16.2.116::172.16.2.2:255.255.255.0:vnc003.test.openqa.fedoraproject.org:eth0:off",
+                "GRUB": "inst.vnc inst.vncconnect=172.16.2.117:5500 net.ifnames=0 biosdevname=0 ip=172.16.2.116::172.16.2.2:255.255.255.0:vnc003.test.openqa.almalinux.org:eth0:off",
                 "INSTALL_UNLOCK": "vncconnect_client_ready",
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "install_vncconnect_client",
@@ -2283,7 +2031,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "iot_zezere_server",
                 "POSTINSTALL": "iot_zezere_ignition",
-                "POST_STATIC": "172.16.2.119 zezere001.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.119 zezere001.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2301,7 +2049,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "_iot_zezere_server _setup_browser _iot_zezere_remote",
-                "POST_STATIC": "172.16.2.118 zezere002.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.118 zezere002.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "TEST_TARGET": "NONE",
@@ -2378,7 +2126,7 @@
                 "HDD_1": "disk_%FLAVOR%_%MACHINE%.qcow2",
                 "NICTYPE": "tap",
                 "POSTINSTALL": "podman",
-                "POST_STATIC": "172.16.2.114 podman001.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.114 podman001.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2397,7 +2145,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "podman",
                 "POSTINSTALL": "_podman_client",
-                "POST_STATIC": "172.16.2.115 podclient001.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.115 podclient001.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2417,7 +2165,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "server_role_deploy_domain_controller",
                 "POSTINSTALL": "realmd_join_cockpit freeipa_webui freeipa_password_change freeipa_client",
-                "POST_STATIC": "172.16.2.102 client002.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.102 client002.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "USER_LOGIN": "false",
                 "WORKER_CLASS": "tap"
@@ -2435,7 +2183,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "server_role_deploy_domain_controller",
                 "POSTINSTALL": "realmd_join_sssd freeipa_client",
-                "POST_STATIC": "172.16.2.103 client003.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.103 client003.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2444,33 +2192,32 @@
         },
         "release_identification": {
             "profiles": {
-                "Almalinux-CoreOS-colive-iso-x86_64-*-64bit": 50,
-                "Almalinux-IoT-dvd_ostree-iso-aarch64-*-aarch64": 40,
-                "Almalinux-IoT-dvd_ostree-iso-x86_64-*-uefi": 40,
-                "Almalinux-Mini-live-iso-x86_64-*-64bit": 42,
-                "Almalinux-MATE-live-iso-x86_64-*-64bit": 45,
-                "Almalinux-KDE-live-iso-x86_64-*-64bit": 43,
-                "Almalinux-XFCE-live-iso-x86_64-*-64bit": 44,
-                "Almalinux-Minimal-raw_xz-raw.xz-aarch64-*-aarch64": 42,
-                "Almalinux-boot-iso-aarch64-*-aarch64": 40,
-                "Almalinux-boot-iso-ppc64le-*-ppc64le": 40,
-                "Almalinux-boot-iso-x86_64-*-64bit": 40,
-                "Almalinux-boot-iso-s390x-*-s390x": 40,
-                "Almalinux-dvd-iso-aarch64-*-aarch64": 40,
-                "Almalinux-dvd-iso-ppc64le-*-ppc64le": 40,
-                "Almalinux-dvd-iso-x86_64-*-64bit": 40,
-                "Almalinux-dvd-iso-s390x-*-s390x": 40,
-                "Almalinux-minimal-iso-aarch64-*-aarch64": 40,
-                "Almalinux-minimal-iso-ppc64le-*-ppc64le": 40,
-                "Almalinux-minimal-iso-x86_64-*-64bit": 40,
-                "Almalinux-minimal-iso-s390x-*-s390x": 40,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
-                "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
-                "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 40,
-                "Almalinux-gnome-live-iso-x86_64-*-64bit": 40,
-                "Almalinux-gnome-upgrade-x86_64-*-64bit": 40,
-                "Almalinux-gnome-upgrade-aarch64-*-aarch64": 40,
-                "Almalinux-gnome-raw_xz-raw.xz-aarch64-*-aarch64": 42
+                "Almalinux-CoreOS-colive-iso-x86_64-*-64bit": 14,
+                "Almalinux-IoT-dvd_ostree-iso-aarch64-*-aarch64": 14,
+                "Almalinux-IoT-dvd_ostree-iso-x86_64-*-uefi": 14,
+                "Almalinux-Mini-live-iso-x86_64-*-64bit": 14,
+                "Almalinux-MATE-live-iso-x86_64-*-64bit": 14,
+                "Almalinux-KDE-live-iso-x86_64-*-64bit": 14,
+                "Almalinux-XFCE-live-iso-x86_64-*-64bit": 14,
+                "Almalinux-Minimal-raw_xz-raw.xz-aarch64-*-aarch64": 24,
+                "Almalinux-boot-iso-aarch64-*-aarch64": 14,
+                "Almalinux-boot-iso-ppc64le-*-ppc64le": 14,
+                "Almalinux-boot-iso-x86_64-*-64bit": 14,
+                "Almalinux-boot-iso-s390x-*-s390x": 14,
+                "Almalinux-dvd-iso-aarch64-*-aarch64": 14,
+                "Almalinux-dvd-iso-ppc64le-*-ppc64le": 14,
+                "Almalinux-dvd-iso-x86_64-*-64bit": 14,
+                "Almalinux-dvd-iso-s390x-*-s390x": 14,
+                "Almalinux-minimal-iso-aarch64-*-aarch64": 14,
+                "Almalinux-minimal-iso-ppc64le-*-ppc64le": 14,
+                "Almalinux-minimal-iso-x86_64-*-64bit": 14,
+                "Almalinux-minimal-iso-s390x-*-s390x": 14,
+                "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 14,
+                "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 14,
+                "Almalinux-gnome-live-iso-x86_64-*-64bit": 14,
+                "Almalinux-gnome-upgrade-x86_64-*-64bit": 16,
+                "Almalinux-gnome-upgrade-aarch64-*-aarch64": 16,
+                "Almalinux-gnome-raw_xz-raw.xz-aarch64-*-aarch64": 24
             },
             "settings": {
                 "BOOTFROM": "c",
@@ -2485,7 +2232,6 @@
                 "Almalinux-CoreOS-colive-iso-x86_64-*-64bit": 20,
                 "Almalinux-IoT-dvd_ostree-iso-aarch64-*-aarch64": 20,
                 "Almalinux-IoT-dvd_ostree-iso-x86_64-*-uefi": 20,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50
             },
             "settings": {
@@ -2501,7 +2247,6 @@
                 "Almalinux-CoreOS-colive-iso-x86_64-*-64bit": 20,
                 "Almalinux-IoT-dvd_ostree-iso-aarch64-*-aarch64": 20,
                 "Almalinux-IoT-dvd_ostree-iso-x86_64-*-uefi": 20,
-                "Almalinux-Calfblue-dvd_ostree-iso-ppc64le-*-ppc64le": 50,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50
             },
             "settings": {
@@ -2562,6 +2307,7 @@
             "profiles": {
                 "Almalinux-minimal-iso-aarch64-*-aarch64": 30,
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 30,
+                "Almalinux-minimal-iso-s390x-*-s390x": 30,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 30
             },
             "settings": {
@@ -2570,7 +2316,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "server_role_deploy_database_server",
                 "POSTINSTALL": "database_client",
-                "POST_STATIC": "172.16.2.105 dbclient.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.105 dbclient.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2622,7 +2368,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "server_freeipa_replication_replica",
                 "POSTINSTALL": "realmd_join_sssd freeipa_client",
-                "POST_STATIC": "172.16.2.108 client005.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.108 client005.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2643,7 +2389,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "role_deploy_domain_controller role_deploy_domain_controller_check",
-                "POST_STATIC": "172.16.2.106 ipa002.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.106 ipa002.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2665,7 +2411,7 @@
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "PARALLEL_WITH": "server_freeipa_replication_master",
                 "POSTINSTALL": "realmd_join_sssd",
-                "POST_STATIC": "172.16.2.107 ipa003.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.107 ipa003.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2706,7 +2452,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "server_remote_logging_server",
                 "POSTINSTALL": "server_remote_logging_client",
-                "POST_STATIC": "172.16.2.113 rsyslogclient.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.113 rsyslogclient.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2726,7 +2472,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "server_remote_logging_server",
-                "POST_STATIC": "172.16.2.112 rsyslogserver.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.112 rsyslogserver.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2737,6 +2483,7 @@
             "profiles": {
                 "Almalinux-minimal-iso-aarch64-*-aarch64": 20,
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 20,
+                "Almalinux-minimal-iso-s390x-*-s390x": 20,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 20
             },
             "settings": {
@@ -2745,7 +2492,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "role_deploy_database_server",
-                "POST_STATIC": "172.16.2.104 db.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.104 db.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2765,7 +2512,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "role_deploy_domain_controller role_deploy_domain_controller_check",
-                "POST_STATIC": "172.16.2.100 ipa001.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.100 ipa001.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "START_AFTER_TEST": "%DEPLOY_UPLOAD_TEST%",
                 "USER_LOGIN": "false",
@@ -2789,7 +2536,7 @@
                 "NUMDISKS": "2",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "_support_server",
-                "POST_STATIC": "172.16.2.110 support.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.110 support.test.openqa.almalinux.org",
                 "ROOT_PASSWORD": "weakpassword",
                 "TEST_TARGET": "NONE",
                 "USER_LOGIN": "false",
@@ -2898,7 +2645,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "upgrade_2_server_domain_controller",
                 "POSTINSTALL": "_setup_browser freeipa_webui freeipa_password_change freeipa_client",
-                "POST_STATIC": "172.16.2.103 client003.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.103 client003.test.openqa.almalinux.org",
                 "PREUPGRADE": "realmd_join_sssd",
                 "ROOT_PASSWORD": "weakpassword",
                 "TEST_TARGET": "COMPOSE",
@@ -2934,7 +2681,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "role_deploy_domain_controller_check",
-                "POST_STATIC": "172.16.2.100 ipa001.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.100 ipa001.test.openqa.almalinux.org",
                 "PREUPGRADE": "role_deploy_domain_controller",
                 "ROOT_PASSWORD": "weakpassword",
                 "TEST_TARGET": "COMPOSE",
@@ -3034,7 +2781,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_WITH": "upgrade_minimal_domain_controller",
                 "POSTINSTALL": "_setup_browser freeipa_webui freeipa_password_change freeipa_client",
-                "POST_STATIC": "172.16.2.103 client003.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.103 client003.test.openqa.almalinux.org",
                 "PREUPGRADE": "realmd_join_sssd",
                 "ROOT_PASSWORD": "weakpassword",
                 "TEST_TARGET": "COMPOSE",
@@ -3056,7 +2803,7 @@
                 "NICTYPE": "tap",
                 "PARALLEL_CANCEL_WHOLE_CLUSTER": "0",
                 "POSTINSTALL": "role_deploy_domain_controller_check",
-                "POST_STATIC": "172.16.2.100 ipa001.test.openqa.fedoraproject.org",
+                "POST_STATIC": "172.16.2.100 ipa001.test.openqa.almalinux.org",
                 "PREUPGRADE": "role_deploy_domain_controller",
                 "ROOT_PASSWORD": "weakpassword",
                 "TEST_TARGET": "COMPOSE",
