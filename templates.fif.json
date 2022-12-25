@@ -288,7 +288,7 @@
         "Almalinux-XFCE-live-iso-x86_64-*": {
             "arch": "x86_64",
             "distri": "almalinux",
-            "flavor": "KDE-live-iso",
+            "flavor": "XFCE-live-iso",
             "settings": {
                 "DEPLOY_UPLOAD_TEST": "install_default_upload",
                 "DESKTOP": "xfce",
