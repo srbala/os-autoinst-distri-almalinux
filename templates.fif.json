@@ -525,7 +525,7 @@
             "machine": "ppc64le",
             "product": "Almalinux-Cloud_Base-qcow2-qcow2-ppc64le-*"
         },
-        "Almalinux-Cloud_Base-qcow2-qcow2-s390x-*-ppc64le": {
+        "Almalinux-Cloud_Base-qcow2-qcow2-s390x-*-s390x": {
             "machine": "s390x",
             "product": "Almalinux-Cloud_Base-qcow2-qcow2-s390x-*"
         },
