@@ -257,7 +257,7 @@ sub _load_early_postinstall_tests {
         $desktop = "gnome";
         # if desktop value not set, override 
         if (!get_var("DESKTOP") || get_var("DESKTOP") ne "false") {
-            set_var("DESKTOP", "gnome")
+            set_var("DESKTOP", "gnome");
         }
     }
     if (get_var("FLAVOR") eq "minimal-iso"  ||
