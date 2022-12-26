@@ -19,6 +19,10 @@ sub run {
         $partcount = 5;
         $partname = "vda2"
     }
+    if ( get_var("ARCH") eq "ppc64le" ) {
+        $partcount = 6;
+        $partname = "vda2"
+    }
     validate_script_output 'fdisk -l | grep /dev/vda | wc -l', sub { $_ =~ m/$partcount/ };
     # check mounted partitions are ext4 fs
     script_run 'mount | grep /dev/vda';    # debug, /dev/vda3 is swap partition
