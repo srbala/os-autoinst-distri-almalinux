@@ -134,10 +134,10 @@ sub load_upgrade_tests() {
 
 sub load_install_tests() {
     # CoreOS is special, so we handle that here
-    if (get_var("SUBVARIANT") eq "CoreOS") {
-        autotest::loadtest "tests/_coreos_install.pm";
-        return;
-    }
+#    if (get_var("SUBVARIANT") eq "CoreOS") {
+#        autotest::loadtest "tests/_coreos_install.pm";
+#        return;
+#    }
     # normal installation test consists of several phases, from which some of them are
     # loaded automatically and others are loaded based on what env variables are set
 
