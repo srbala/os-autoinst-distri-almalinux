@@ -94,16 +94,19 @@ sub run {
 
         # GDM 3.24.1 dumps a cursor in the middle of the screen here...
         mouse_hide;
+        
         if ($desktop eq 'gnome') {
-            if (get_version_major() > 8) {
-                send_key_until_needlematch("graphical_login_test_user_highlighted", "tab", 5);
-                click_lastmatch;
-                # assert_and_click "graphical_login_test_user_highlighted";
-            }            
-            # we have to hit enter to get the password dialog, and it
-            # doesn't always work for some reason so just try it three
-            # times
-            send_key_until_needlematch("graphical_login_input", "ret", 3, 5);
+            if (!check_screen "graphical_login_input", 5) {
+                if (get_version_major() > 8) {
+                    send_key_until_needlematch("graphical_login_test_user_highlighted", "tab", 5);
+                    # click_lastmatch;
+                    # assert_and_click "graphical_login_test_user_highlighted";
+                }            
+                # we have to hit enter to get the password dialog, and it
+                # doesn't always work for some reason so just try it three
+                # times
+                send_key_until_needlematch("graphical_login_input", "ret", 3, 5);
+            }
         }
         assert_screen "graphical_login_input";
         # seems like we often double-type on aarch64 if we start right

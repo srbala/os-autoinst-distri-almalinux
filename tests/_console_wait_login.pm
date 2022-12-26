@@ -34,7 +34,7 @@ sub run {
         console_initial_setup;
     }
     if ((get_var("FLAVOR") eq "boot-iso" || get_var("FLAVOR") eq "dvd-iso")  && (get_var("DEPLOY_UPLOAD_TEST") eq "install_default_upload")) {
-        # console login requested on a graphical install, switch
+        # console login requested on a graphical install, switch to console and logout 
         sleep $wait_time;
         $self->root_console(tty => 3);
         sleep 10;
