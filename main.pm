@@ -250,8 +250,8 @@ sub _load_early_postinstall_tests {
     # Also if no "DESKTOP" variable defined/empty
     my $package_set = get_var("PACKAGE_SET");
     # Appropriate login method for install type
-    if (get_var("DESKTOP"  || get_var('FLAVOR') eq 'boot-iso' || get_var('FLAVOR') eq 'dvd-iso' ||
-        $package_set eq "default" || $package_set eq "workstation")) {
+    if (get_var("DESKTOP")  || get_var("FLAVOR") eq "boot-iso" || get_var("FLAVOR") eq "dvd-iso" ||
+        $package_set eq "default" || $package_set eq "workstation") {
         _load_instance("tests/_graphical_wait_login", $instance);
 #        _load_instance("tests/_snapshot_only") if (get_var("LOGIN_SNAPSHOT"));
     }
