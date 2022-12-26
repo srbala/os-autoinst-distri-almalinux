@@ -50,6 +50,7 @@ sub run {
             wait_still_screen 3;
             if (get_var('LIVE')) {
                 unless (get_var("HDD_1") && !(get_var("PARTITIONING") eq "custom_resize_lvm")) {
+                    mouse_hide;
                     # assert_screen "gdm_initial_setup_license", 120;
                     assert_and_click "gdm_initial_setup_license";
                     # Make sure the card has fully lifted until clicking on the buttons
@@ -76,6 +77,7 @@ sub run {
         # the initial appearance can sometimes take really long
         if (get_version_major() < 9 || (get_var("LIVE") && $desktop eq 'kde')) {
             unless (get_var("HDD_1") && !(get_var("PARTITIONING") eq "custom_resize_lvm")) {
+                mouse_hide;
                 assert_screen "gdm_initial_setup_license", 120;
                 assert_and_click "gdm_initial_setup_license";
                 # Make sure the card has fully lifted until clicking on the buttons
