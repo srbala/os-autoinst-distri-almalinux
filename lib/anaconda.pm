@@ -349,8 +349,8 @@ sub check_help_on_pane {
         # assert_screen "anaconda_help_installation_progress";
     } 
     elsif ($screen eq "keyboard_layout") {
-        wait_still_screen 3;
-        if (check_screen("anaconda_help_keyboard_layout_pre_localization", 3)) {
+        wait_still_screen 5;
+        if (check_screen("anaconda_help_keyboard_layout_pre_localization", 5)) {
             assert_and_click "anaconda_help_keyboard_layout_pre_localization";
             wait_still_screen 3;
         }
