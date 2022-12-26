@@ -1,20 +1,20 @@
 {
   "area": [
     {
-      "width": 16,
-      "xpos": 245,
+      "xpos": 249,
+      "width": 12,
+      "height": 29,
+      "ypos": 554,
       "type": "match",
-      "ypos": 484,
-      "height": 33,
       "click_point": {
-        "xpos": 8,
-        "ypos": 16.5
+        "xpos": 6,
+        "ypos": 14.5
       }
     }
   ],
   "properties": [],
   "tags": [
     "ENV-DISTRI-almalinux",
-    "anaconda_main_hub_root_password"
+    "anaconda_main_hub_user_creation"
   ]
 }

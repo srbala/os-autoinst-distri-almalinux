@@ -67,7 +67,8 @@ sub run {
 
     # Check the last Help screen but wait for some time for the test to settle down.
     sleep 10;
-    check_help_on_pane("installation_progress");
+    # No help in installation_progress screen ...!
+    # check_help_on_pane("installation_progress");
 
     # As there is no need to proceed with the installation,
     # the test ends here and the VM will be destroyed

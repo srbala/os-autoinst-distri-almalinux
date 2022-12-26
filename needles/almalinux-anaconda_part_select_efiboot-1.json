@@ -1,19 +1,19 @@
 {
   "area": [
     {
-      "ypos": 463,
-      "type": "match",
+      "xpos": 55,
+      "width": 69,
       "height": 18,
-      "width": 44,
-      "xpos": 54,
+      "type": "match",
+      "ypos": 282,
       "click_point": {
-        "xpos": 22,
+        "xpos": 34.5,
         "ypos": 9
       }
     }
   ],
   "properties": [],
   "tags": [
-    "anaconda_part_select_boot"
+    "anaconda_part_select_efiboot"
   ]
 }

@@ -1,19 +1,19 @@
 {
   "area": [
     {
-      "ypos": 463,
-      "type": "match",
       "height": 18,
-      "width": 44,
-      "xpos": 54,
+      "type": "match",
+      "ypos": 371,
+      "xpos": 38,
+      "width": 108,
       "click_point": {
-        "xpos": 22,
+        "xpos": 54,
         "ypos": 9
       }
     }
   ],
   "properties": [],
   "tags": [
-    "anaconda_part_select_boot"
+    "anaconda_part_use_current"
   ]
 }
