@@ -250,7 +250,17 @@ sub _load_early_postinstall_tests {
     # Also if no "DESKTOP" variable defined/empty
     my $package_set = get_var("PACKAGE_SET");
     # Appropriate login method for install type
-    if (get_var("DESKTOP")  || get_var("FLAVOR") eq "boot-iso" || get_var("FLAVOR") eq "dvd-iso" ||
+    if (!get_var("FLAVOR") eq "boot-iso" && !get_var("FLAVOR") eq "dvd-iso") {
+        if (get_var("FLAVOR") eq "minimal-iso"  || !get_var("DESKTOP") || 
+            get_var("DESKTOP") eq "false" ||
+            $package_set eq "minimal" || $package_set eq "server" ||
+            $package_set eq "virtualization-host") {
+            _load_instance("tests/_console_wait_login", $instance);
+            return;
+        }
+    }
+
+    if (get_var("DESKTOP")  || 
         $package_set eq "default" || $package_set eq "workstation") {
         _load_instance("tests/_graphical_wait_login", $instance);
 #        _load_instance("tests/_snapshot_only") if (get_var("LOGIN_SNAPSHOT"));
@@ -258,13 +268,6 @@ sub _load_early_postinstall_tests {
     # Test non-US input at this point, on language tests
     if (get_var("SWITCHED_LAYOUT") || get_var("INPUT_METHOD")) {
         _load_instance("tests/_graphical_input", $instance);
-    }
-
-    if (get_var("FLAVOR") eq "minimal-iso"  || !get_var("DESKTOP") || get_var("DESKTOP") eq "false" ||
-        $package_set eq "minimal" || $package_set eq "server" ||
-        $package_set eq "virtualization-host") {
-        _load_instance("tests/_console_wait_login", $instance);
-        return;
     }
 
     if (get_var("LANGUAGE", "") eq "japanese" || get_var("LANGUAGE", "") eq "arabic") {
