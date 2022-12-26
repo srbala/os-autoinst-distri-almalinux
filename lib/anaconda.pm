@@ -358,14 +358,10 @@ sub check_help_on_pane {
             assert_and_click "anaconda_help_keyboard_layout";
             wait_still_screen 3;
 #        }
-        if ($screen eq "keyboard_layout" || $screen eq "time_date") {
-            return;
-        }
-#        if (check_screen("anaconda_help_language_support", 2)) {
+        if ($screen eq "language_support" ) {
             assert_and_click "anaconda_help_language_support";
             wait_still_screen 3;
-#        }
-        #assert_screen "anaconda_help_$screen";
+        }
     }
     # Otherwise, only check the relevant screen.
     else {
