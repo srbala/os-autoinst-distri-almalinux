@@ -71,13 +71,13 @@ sub get_version_major {
 sub get_code_name {
     my $version = get_var("VERSION");
 
-    if ($version eq '9.1') {  return "Lime Lynx"; }
-    elsif ($version eq '8.7') {  return "Stone Smilodon"; }
-    elsif ($version eq '9.0') {  return "Emerald Puma"; }
-    elsif ($version eq '8.6') {  return "Sky Tiger"; }
-    elsif ($version eq '8.5') {  return "Arctic Sphynx"; }
-    elsif ($version eq '8.4') {  return "Electric Cheetah"; }
-    elsif ($version eq '8.3') {  return "Purple Manul"; }
+    if ($version eq '9.1') { return "Lime Lynx"; }
+    elsif ($version eq '8.7') { return "Stone Smilodon"; }
+    elsif ($version eq '9.0') { return "Emerald Puma"; }
+    elsif ($version eq '8.6') { return "Sky Tiger"; }
+    elsif ($version eq '8.5') { return "Arctic Sphynx"; }
+    elsif ($version eq '8.4') { return "Electric Cheetah"; }
+    elsif ($version eq '8.3') { return "Purple Manul"; }
     else { return "Stone Smilodon" };
 }
 
