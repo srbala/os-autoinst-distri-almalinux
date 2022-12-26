@@ -78,7 +78,7 @@ sub get_code_name {
     elsif ($version eq '8.5') {  return "Arctic Sphynx"; }
     elsif ($version eq '8.4') {  return "Electric Cheetah"; }
     elsif ($version eq '8.3') {  return "Purple Manul"; }
-    else return "Stone Smilodon";
+    else { return "Stone Smilodon" };
 }
 
 # Wait for login screen to appear. Handle the annoying GPU buffer
