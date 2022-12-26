@@ -348,13 +348,21 @@ sub check_help_on_pane {
         # TODO: screen not exits
         # assert_screen "anaconda_help_installation_progress";
     } 
-    elsif ($screen eq "keyboard_layout") {
+    elsif ($screen eq "keyboard_layout" || $screen eq "language_support") {
         wait_still_screen 5;
         if (check_screen("anaconda_help_keyboard_layout_pre_localization", 5)) {
             assert_and_click "anaconda_help_keyboard_layout_pre_localization";
             wait_still_screen 3;
         }
-        assert_screen "anaconda_help_$screen";
+        if (check_screen("anaconda_help_keyboard_layout", 2)) {
+            assert_and_click "anaconda_help_keyboard_layout";
+            wait_still_screen 3;
+        }
+        if (check_screen("anaconda_help_language_support", 2)) {
+            assert_and_click "anaconda_help_language_support";
+            wait_still_screen 3;
+        }
+        #assert_screen "anaconda_help_$screen";
     }
     # Otherwise, only check the relevant screen.
     else {

@@ -101,7 +101,7 @@ sub run {
             if (!check_screen "graphical_login_input", 5) {
                 if (get_version_major() > 8) {
                     send_key_until_needlematch("graphical_login_test_user_highlighted", "tab", 5);
-                    # click_lastmatch;
+                    click_lastmatch;
                     # assert_and_click "graphical_login_test_user_highlighted";
                 }            
                 # we have to hit enter to get the password dialog, and it

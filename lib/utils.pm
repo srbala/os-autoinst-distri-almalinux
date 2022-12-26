@@ -72,13 +72,13 @@ sub get_code_name {
     my $version = get_var("VERSION");
 
     if ($version eq '9.1') {  return "Lime Lynx"; }
-    if ($version eq '9.0') {  return "Emerald Puma"; }
-    if ($version eq '8.7') {  return "Stone Smilodon"; }
-    if ($version eq '8.6') {  return "Sky Tiger"; }
-    if ($version eq '8.5') {  return "Arctic Sphynx"; }
-    if ($version eq '8.4') {  return "Electric Cheetah"; }
-    if ($version eq '8.3') {  return "Purple Manul"; }
-    return "Stone Smilodon";
+    elsif ($version eq '8.7') {  return "Stone Smilodon"; }
+    elsif ($version eq '9.0') {  return "Emerald Puma"; }
+    elsif ($version eq '8.6') {  return "Sky Tiger"; }
+    elsif ($version eq '8.5') {  return "Arctic Sphynx"; }
+    elsif ($version eq '8.4') {  return "Electric Cheetah"; }
+    elsif ($version eq '8.3') {  return "Purple Manul"; }
+    else return "Stone Smilodon";
 }
 
 # Wait for login screen to appear. Handle the annoying GPU buffer
