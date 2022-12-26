@@ -2613,13 +2613,17 @@
         },
         "support_server": {
             "profiles": {
+                "Almalinux-dvd-iso-aarch64-*-aarch64": 10,
+                "Almalinux-dvd-iso-ppc64le-*-ppc64le": 10,
+                "Almalinux-dvd-iso-s390x-*-s390x": 10,
+                "Almalinux-dvd-iso-x86_64-*-64bit": 10,
                 "Almalinux-minimal-iso-aarch64-*-aarch64": 10,
                 "Almalinux-minimal-iso-ppc64le-*-ppc64le": 10,
                 "Almalinux-minimal-iso-x86_64-*-64bit": 10,
-                "Almalinux-minimal-iso-s390x-*-s390x": 20,
+                "Almalinux-minimal-iso-s390x-*-s390x": 10,
                 "Almalinux-universal-aarch64-*-aarch64": 10,
                 "Almalinux-universal-ppc64le-*-ppc64le": 10,
-                "Almalinux-universal-s390x-*-s390x": 40,
+                "Almalinux-universal-s390x-*-s390x": 10,
                 "Almalinux-universal-x86_64-*-64bit": 10
             },
             "settings": {
