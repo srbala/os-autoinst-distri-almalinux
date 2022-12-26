@@ -973,7 +973,9 @@ sub check_desktop {
     my $activematched = 0;
     while ($count > 0) {
         $count -= 1;
-        if ((get_var("DESKTOP") eq 'gnome') && (check_screen "live_initial_gnome_tour", 7)) {
+        # base dvd-iso or boot iso, desktop not set to gnome
+        # may be required?
+        if ((get_var("FLAVOR") eq "boot-iso" || get_var("FLAVOR") eq "dvd-iso")  && (get_var("DEPLOY_UPLOAD_TEST") eq 'install_default_upload') && (check_screen "live_initial_gnome_tour", 7)) {
             assert_and_click "live_initial_gnome_tour";
             wait_still_screen 3;
         }
