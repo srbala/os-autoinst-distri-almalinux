@@ -6,6 +6,7 @@ use utils;
 
 sub goto_mountpoint {
     send_key_until_needlematch("anaconda_part_mountpoint_selected", "tab", 20);
+    assert_and_click "anaconda_part_mountpoint_selected";
 }
 
 sub run {
