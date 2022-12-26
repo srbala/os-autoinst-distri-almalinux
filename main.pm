@@ -277,7 +277,7 @@ sub _load_early_postinstall_tests {
 
     # We do not want to run this on Desktop installations or when
     # the installation is interrupted on purpose.
-    unless (get_var("DESKTOP") || get_var("CRASH_REPORT")) {
+    unless (!$package_set eq "default" || get_var("DESKTOP") || get_var("CRASH_REPORT")) {
         _load_instance("tests/_console_wait_login", $instance);
 #        _load_instance("tests/_snapshot_only") if (get_var("LOGIN_SNAPSHOT"));
     }
