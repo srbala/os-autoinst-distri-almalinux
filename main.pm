@@ -249,18 +249,22 @@ sub _load_early_postinstall_tests {
     # for minimal/server-product/virtualization-host
     # Also if no "DESKTOP" variable defined/empty
     my $package_set = get_var("PACKAGE_SET");
+    my $desktop = "false"; 
+
     # Appropriate login method for install type
-    if (!get_var("FLAVOR") eq "boot-iso" && !get_var("FLAVOR") eq "dvd-iso") {
-        if (get_var("FLAVOR") eq "minimal-iso"  || !get_var("DESKTOP") || 
-            get_var("DESKTOP") eq "false" ||
-            $package_set eq "minimal" || $package_set eq "server" ||
-            $package_set eq "virtualization-host") {
-            _load_instance("tests/_console_wait_login", $instance);
-            return;
-        }
+    if ((get_var("FLAVOR") eq "boot-iso" || get_var("FLAVOR") eq "dvd-iso")  && 
+        (get_var("TEST") eq "install_default" || get_var("TEST") eq "install_default_upload")) {
+        $desktop = "gnome";
+    }
+    if (get_var("FLAVOR") eq "minimal-iso"  ||
+        $desktop eq "false" ||
+        $package_set eq "minimal" || $package_set eq "server" ||
+        $package_set eq "virtualization-host") {
+        _load_instance("tests/_console_wait_login", $instance);
+        return;
     }
 
-    if (get_var("DESKTOP")  || 
+    if ($desktop eq "gnome"   || 
         $package_set eq "default" || $package_set eq "workstation") {
         _load_instance("tests/_graphical_wait_login", $instance);
 #        _load_instance("tests/_snapshot_only") if (get_var("LOGIN_SNAPSHOT"));
@@ -277,10 +281,10 @@ sub _load_early_postinstall_tests {
 
     # We do not want to run this on Desktop installations or when
     # the installation is interrupted on purpose.
-    unless (!$package_set eq "default" || get_var("DESKTOP") || get_var("CRASH_REPORT")) {
-        _load_instance("tests/_console_wait_login", $instance);
+#    unless (get_var("DESKTOP") || get_var("CRASH_REPORT")) {
+#        _load_instance("tests/_console_wait_login", $instance);
 #        _load_instance("tests/_snapshot_only") if (get_var("LOGIN_SNAPSHOT"));
-    }
+#    }
 }
 
 sub load_postinstall_tests() {
