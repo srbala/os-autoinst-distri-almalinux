@@ -347,6 +347,13 @@ sub check_help_on_pane {
         # Check the Installation Progress screen
         # TODO: screen not exits
         # assert_screen "anaconda_help_installation_progress";
+    } else if ($screen eq "keyboard_layout") {
+        wait_still_screen 3;
+        if (check_screen("anaconda_help_keyboard_layout_pre_localization", 3)) {
+            assert_and_click "anaconda_help_keyboard_layout_pre_localization";
+            wait_still_screen 3;
+        }
+        assert_screen "anaconda_help_$screen";
     }
     # Otherwise, only check the relevant screen.
     else {
