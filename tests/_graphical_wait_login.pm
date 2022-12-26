@@ -97,7 +97,8 @@ sub run {
         if ($desktop eq 'gnome') {
             if (get_version_major() > 8) {
                 send_key_until_needlematch("graphical_login_test_user_highlighted", "tab", 5);
-                assert_screen "graphical_login_test_user_highlighted";
+                click_lastmatch;
+                # assert_and_click "graphical_login_test_user_highlighted";
             }            
             # we have to hit enter to get the password dialog, and it
             # doesn't always work for some reason so just try it three
