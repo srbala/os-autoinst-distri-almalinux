@@ -35,7 +35,9 @@ sub run {
     }
     if ((get_var("FLAVOR") eq "boot-iso" || get_var("FLAVOR") eq "dvd-iso")  && (get_var("DEPLOY_UPLOAD_TEST") eq "install_default_upload")) {
         # console login requested on a graphical install, switch
+        sleep $wait_time;
         $self->root_console(tty => 3);
+        $wait_time = 90;
     }
     # Wait for the text login
     boot_to_login_screen(timeout => $wait_time);
