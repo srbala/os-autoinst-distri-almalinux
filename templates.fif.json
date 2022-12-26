@@ -479,6 +479,15 @@
             },
             "version": "*"
         },
+        "Almalinux-universal-s390x-*": {
+            "arch": "s390x",
+            "distri": "almalinux",
+            "flavor": "universal",
+            "settings": {
+                "TEST_TARGET": "ISO"
+            },
+            "version": "*"
+        },
         "Almalinux-universal-x86_64-*": {
             "arch": "x86_64",
             "distri": "almalinux",
@@ -499,6 +508,15 @@
         },
         "Almalinux-seasonal-ppc64le-*": {
             "arch": "ppc64le",
+            "distri": "almalinux",
+            "flavor": "seasonal",
+            "settings": {
+                "TEST_TARGET": "ISO"
+            },
+            "version": "*"
+        },
+        "Almalinux-seasonal-s390x-*": {
+            "arch": "s390x",
             "distri": "almalinux",
             "flavor": "seasonal",
             "settings": {
