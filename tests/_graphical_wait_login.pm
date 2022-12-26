@@ -115,6 +115,10 @@ sub run {
         # away
         wait_still_screen 5;
         _enter_password($password);
+        # it takes take time on ppc64le arch
+        if (get_var("ARCH" eq "ppc64le")) {
+            sleep 90;
+        }
     }
 
     # For GNOME, handle initial-setup or welcome tour, unless _WELCOME_DONE
