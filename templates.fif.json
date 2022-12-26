@@ -1459,6 +1459,10 @@
                 "Almalinux-dvd-iso-ppc64le-*-ppc64le": 10,
                 "Almalinux-dvd-iso-x86_64-*-64bit": 10,
                 "Almalinux-dvd-iso-s390x-*-s390x": 10,
+                "Almalinux-boot-iso-aarch64-*-aarch64": 10,
+                "Almalinux-boot-iso-ppc64le-*-ppc64le": 10,
+                "Almalinux-boot-iso-x86_64-*-64bit": 10,
+                "Almalinux-boot-iso-s390x-*-s390x": 10,
                 "Almalinux-Calfblue-dvd_ostree-iso-x86_64-*-64bit": 50,
                 "Almalinux-gnome-live-iso-ppc64le-*-ppc64le": 12,
                 "Almalinux-gnome-live-iso-x86_64-*-64bit": 12
